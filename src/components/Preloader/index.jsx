@@ -99,26 +99,18 @@ const PreloaderDivFadeOut = styled(PreloaderDiv)`
     animation: ${fadeOut} 1.5s 0s linear forwards;
 `
 
+const JumpersDiv = () => {
+    return  (
+        <Jumper className='jumper'>
+            <JumperDiv className='one'></JumperDiv>
+            <JumperDiv2 className='two'></JumperDiv2>
+            <JumperDiv3 className='three'></JumperDiv3>
+        </Jumper>
+    )
+}
 export function Preloader() {
     let [loaded, setLoaded] = useState(false)
     let [jumper, setJumper] = useState(true)
-
-    const None = () => {
-        return (
-            <>
-            </>
-        )
-    }
-
-    const JumpersDiv = () => {
-        return  (
-            <Jumper className='jumper'>
-                <JumperDiv className='one'></JumperDiv>
-                <JumperDiv2 className='two'></JumperDiv2>
-                <JumperDiv3 className='three'></JumperDiv3>
-            </Jumper>
-        )
-    }
 
     useEffect(()=>{
         setTimeout(() => {setLoaded(true)}, 2500)
@@ -128,11 +120,10 @@ export function Preloader() {
     }, [])
 
     const Preloader = !loaded ? PreloaderDiv : PreloaderDivFadeOut
-    const ShowJumper = jumper ? JumpersDiv : None
 
     return (
         <Preloader className='preloader'>
-            <ShowJumper />
+            {jumper && <JumpersDiv/>}
         </Preloader>
     )       
 }
