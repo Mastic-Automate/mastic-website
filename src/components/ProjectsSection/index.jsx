@@ -26,40 +26,36 @@ export function ProjectsSection() {
         </CardProjects>
         <CarouselWrapper className='carousel-wrapper'>
         <Carousel className='carousel'>
-
             <Card className='card'>
-            <CardHeader className='card-header'>
-                <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
-            </CardHeader>
-            <CardBody className='card-body'>
-                <h1>Automate</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button className='btn-card'>SAIBA mais</button>
-            </CardBody>
+                <CardHeader className='card-header'>
+                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
+                </CardHeader>
+                <CardBody className='card-body'>
+                    <h1>Automate</h1>
+                    <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
+                    <button className='btn-card'>SAIBA mais</button>
+                </CardBody>
             </Card>
-
             <Card className='card'>
-            <CardHeader className='card-header'>
-                <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
-            </CardHeader>
-            <CardBody className='card-body'>
-                <h1>Automate</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button className='btn-card'>SAIBA mais</button>
-            </CardBody>
+                <CardHeader className='card-header'>
+                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
+                </CardHeader>
+                <CardBody className='card-body'>
+                    <h1>Automate</h1>
+                    <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
+                    <button className='btn-card'>SAIBA mais</button>
+                </CardBody>
             </Card>
-
             <Card className='card'>
-            <CardHeader className='card-header'>
-                <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
-            </CardHeader>
-            <CardBody className='card-body'>
-                <h1>Automate</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button className='btn-card'>SAIBA mais</button>
-            </CardBody>
+                <CardHeader className='card-header'>
+                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
+                </CardHeader>
+                <CardBody className='card-body'>
+                    <h1>Automate</h1>
+                    <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
+                    <button className='btn-card'>SAIBA mais</button>
+                </CardBody>
             </Card>
-
         </Carousel>
         <button className='btn-primary'>Veja mais projetos</button>
         </CarouselWrapper>

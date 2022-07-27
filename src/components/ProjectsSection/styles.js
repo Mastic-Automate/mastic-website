@@ -93,7 +93,7 @@ export const Carousel = styled.div`
     margin-right: auto;
     margin-bottom: 6rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     ${media.lgBreakpoint} {
         flex-direction: column;
         justify-content: end;

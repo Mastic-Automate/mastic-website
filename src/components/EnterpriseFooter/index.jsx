@@ -21,20 +21,13 @@ export function EnterpriseFooter() {
                             <img src="/img/logo-mastic-removedBG.png" alt='Logo da Mastic' />
                             <h2>Nossas Prioridades</h2>
                         </Title>
-                        
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p>
+                            Trabalhamos em soluções que buscam atingir a população da periferia, e influenciar o Brasil de forma positiva
+                        </p>
                 </OurPriorities>
                 <LinksWrapper>
                     <Projects className='projects'>
                         <h2>Projetos</h2>
-                        <Project className='project'>
-                            <div className='img'></div>
-                            <h3>AUTOMATE</h3>
-                        </Project>
-                        <Project className='project'>
-                            <div className='img'></div>
-                            <h3>AUTOMATE</h3>
-                        </Project>
                         <Project className='project'>
                             <div className='img'></div>
                             <h3>AUTOMATE</h3>
@@ -43,9 +36,9 @@ export function EnterpriseFooter() {
                     <FastLinks className='fast-links'>
                         <h2>Links Rápidos</h2>
                         <ul>
-                            <li>HOME</li>
+                            <li>Home</li>
                             <li>Produtos</li>
-                            <li>sobre nós</li>
+                            <li>Sobre nós</li>
                         </ul>
                     </FastLinks>
                 </LinksWrapper>

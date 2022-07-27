@@ -13,7 +13,7 @@ import {
 
 export function Problematic() {
     return (
-        <ProblematicWrapper className='problematic-wrapper'>
+    <ProblematicWrapper className='problematic-wrapper'>
             <Card className='card'>
                 <CardContainer className='card-container'>
                     <CardHeader className='card-header'>
@@ -21,7 +21,7 @@ export function Problematic() {
                         <div className='header-title'>Nossas prioridades</div>
                     </CardHeader>
                     <div className='card-text'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        Trabalhamos em soluções que buscam atingir a população da periferia, e influenciar o Brasil de forma positiva
                     </div>
                     <button className='card-button'>Saiba mais</button>
                 </CardContainer>
