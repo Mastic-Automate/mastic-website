@@ -28,7 +28,7 @@ export function AboutUs() {
             <AboutUsDetails className='about-us-details'>
                 <ContainerDetails className='container-details'>
                     <Detail className='detail our-mission'>
-                        <h2>Nossa MIssão</h2>
+                        <h2>Nossa Missão</h2>
                         <p>Buscar melhorar a autonomia agrônoma das periferias, podendo ter sua própria horta, para uso próprio ajudando na sua alimentação saudável ou para vender em nosso site, gerando assim uma "renda extra".</p>
                     </Detail>
                     <Detail className='detail our-values'>
@@ -39,7 +39,6 @@ export function AboutUs() {
                         <h2>Sobre nós</h2>
                         <p>A Mastic é uma empresa criada por um grupo de 8 estudantes da ETEC Cidade Tiradentes, foi criada com o intuito de complementar nosso TCC do curso de Desenvolvimento de Sistemas, porém visando uma oportunidade de crescer dentro desse mercado de agricultura e mecatronica sustentável e econômico.</p>
                     </Detail>
-                    
                     
                 </ContainerDetails>
             </AboutUsDetails>

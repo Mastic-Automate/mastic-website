@@ -11,7 +11,7 @@ import {Preloader} from '../../components/Preloader'
 export function Home() {
     return (
         <div id="enterprise-container">
-            {/* <Preloader /> */}
+            <Preloader />
             <StickyHeader logo={<h1>MASTIC</h1>} links={[{link: '/mastic', linkName:'HOME'}, {link: '/', linkName:'PRODUTOS'}, {link: '#about-us', linkName:'SOBRE NÓS'}]} />
 
             <Hero 

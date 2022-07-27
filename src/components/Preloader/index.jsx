@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {theme} from '../../global/theme'
 import styled, { keyframes } from 'styled-components'
 
@@ -120,13 +120,12 @@ export function Preloader() {
         )
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {setLoaded(true)}, 2000)
+    useEffect(()=>{
+        setTimeout(() => {setLoaded(true)}, 2500)
         setTimeout(() => {
             setJumper(false)
-        }, 3500)
-      
-    })
+        }, 4000)
+    }, [])
 
     const Preloader = !loaded ? PreloaderDiv : PreloaderDivFadeOut
     const ShowJumper = jumper ? JumpersDiv : None
