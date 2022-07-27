@@ -13,6 +13,11 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
+
+.App {
+  position: relative;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("/global/fonts/Poppins-Regular.ttf") format("truetype");
