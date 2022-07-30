@@ -105,7 +105,7 @@ export const Projects = styled.div`
     text-align: left;
 `;
 
-export const Project = styled.div`
+export const Project = styled.a`
     display: flex;
     justify-content: flex-start;
     margin-top: 2rem;
@@ -115,6 +115,7 @@ export const Project = styled.div`
     & h3 {
         font-family: 'Oswald-Light';
         font-weight: 400;
+        color: #cacaca;
     }
     & img {
         width: 40px;
@@ -140,5 +141,8 @@ export const FastLinks = styled.div`
         text-transform: uppercase;
         margin-top: 2rem;
         margin-left: 0.4rem;
+    }
+    & ul li a {
+        color: #cacaca;
     }
 `;

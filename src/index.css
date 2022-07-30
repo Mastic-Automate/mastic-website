@@ -14,8 +14,13 @@ font & reset css
 --------------------------------------------- 
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 @font-face {

@@ -177,7 +177,7 @@ export const CardBody = styled.div`
         font-family: Oswald-Light;
         font-size: 1.7rem;
     }
-    & button.btn-card {
+    & .btn-card {
         width: 90%;
         height: 35px;
         text-transform: uppercase;
@@ -190,5 +190,8 @@ export const CardBody = styled.div`
         background-color: #4B902D;
         color: white;
         cursor: pointer;
+        display:flex;
+        align-items:center;
+        justify-content: center;
     }
 `;

@@ -23,7 +23,9 @@ export function Problematic() {
                     <div className='card-text'>
                         Trabalhamos em soluções que buscam atingir a população da periferia, e influenciar o Brasil de forma positiva
                     </div>
-                    <button className='card-button'>Saiba mais</button>
+                    <a href="#about-us" className="card-button">
+                        Saiba mais
+                    </a>
                 </CardContainer>
             </Card>
 

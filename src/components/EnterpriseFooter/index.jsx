@@ -28,7 +28,7 @@ export function EnterpriseFooter() {
                 <LinksWrapper>
                     <Projects className='projects'>
                         <h2>Projetos</h2>
-                        <Project className='project'>
+                        <Project className='project' href="https://automate-website-deploy.vercel.app">
                             <div className='img'></div>
                             <h3>AUTOMATE</h3>
                         </Project>                
@@ -36,9 +36,16 @@ export function EnterpriseFooter() {
                     <FastLinks className='fast-links'>
                         <h2>Links Rápidos</h2>
                         <ul>
-                            <li>Home</li>
-                            <li>Produtos</li>
-                            <li>Sobre nós</li>
+                            <li>
+                                <a href="#projects">
+                                    Produtos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about-us">
+                                    Sobre nós
+                                </a>
+                            </li>
                         </ul>
                     </FastLinks>
                 </LinksWrapper>

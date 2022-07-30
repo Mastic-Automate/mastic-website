@@ -15,7 +15,7 @@ import enterpriseLogo from '../../assets/img/logo-mastic-removedBG.png';
 
 export function ProjectsSection() {
     return (
-    <ProjectsWrapper className='projects-wrapper'>
+    <ProjectsWrapper className='projects-wrapper' id="projects">
         <CardProjects className='card-projects'>
         <h1 className='card-projects-title'>Projetos</h1>
         <Row className='row'>
@@ -33,27 +33,13 @@ export function ProjectsSection() {
                 <CardBody className='card-body'>
                     <h1>Automate</h1>
                     <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
-                    <button className='btn-card'>SAIBA mais</button>
-                </CardBody>
-            </Card>
-            <Card className='card'>
-                <CardHeader className='card-header'>
-                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
-                </CardHeader>
-                <CardBody className='card-body'>
-                    <h1>Automate</h1>
-                    <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
-                    <button className='btn-card'>SAIBA mais</button>
-                </CardBody>
-            </Card>
-            <Card className='card'>
-                <CardHeader className='card-header'>
-                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
-                </CardHeader>
-                <CardBody className='card-body'>
-                    <h1>Automate</h1>
-                    <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
-                    <button className='btn-card'>SAIBA mais</button>
+                    <a 
+                        href="https://automate-website-deploy.vercel.app" 
+                        className='btn-card'
+                        target="_blank"
+                    >
+                        Saiba mais
+                    </a>
                 </CardBody>
             </Card>
         </Carousel>

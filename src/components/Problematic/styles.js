@@ -62,6 +62,9 @@ export const Card = styled.div`
             transition: 0.5s;
             font-size: 1.5rem;
             font-family: 'Oswald';
+            display:flex;
+            align-items: center;
+            justify-content: center;
         }
             & .card-button:hover {
                 background-color: #fff;

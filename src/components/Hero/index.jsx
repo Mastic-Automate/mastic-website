@@ -16,7 +16,7 @@ export function Hero(props) {
         }
 
         return ( 
-            <HeroWrapper className="hero">
+            <HeroWrapper className="hero" id="hero">
                 <img src={src} alt={alt} />
                 <TextElement title={title} text={text} />
             </HeroWrapper>
@@ -24,7 +24,7 @@ export function Hero(props) {
     }
 
     return (
-        <HeroWrapper className="hero">
+        <HeroWrapper className="hero" id="hero">
                 {title} 
         </HeroWrapper>
     )
