@@ -34,7 +34,7 @@ export function ProjectsSection() {
                     <h1>Automate</h1>
                     <p>Um projeto de agricultura urbana que visa oferecer oportunidades para pessoas de baixa renda.</p>
                     <a 
-                        href="https://automate-website-deploy.vercel.app" 
+                        href="https://automate-website-deplovitey.vercel.app" 
                         className='btn-card'
                         target="_blank"
                     >
