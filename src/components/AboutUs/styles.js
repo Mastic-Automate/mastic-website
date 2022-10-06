@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+import nasalization from '/global/fonts/nasalization.otf';
+import oswaldExtraLight from '/global/fonts/Oswald-ExtraLight.ttf';
+
 const media = {
     tablet: '@media(max-width: 960px)',
     mobile: '@media(max-width: 500px)',
@@ -31,7 +34,7 @@ export const AboutUsHeader = styled.div`
         font-size: 6rem;
         font-weight: 300;
         letter-spacing: 2px;
-        font-family: 'Oswald-ExtraLight';
+        font-family: local(${oswaldExtraLight});
     }
     ${media.tablet} {
         
@@ -93,13 +96,13 @@ export const Detail = styled.div`
         font-size: 3rem;
         margin: 0 auto;
         text-align: center;
-        font-family: 'Nasalization';
+        font-family: local(${nasalization});
         font-weight: 400;
     }
     & p {
         font-size: 2.1rem;
         letter-spacing: 1px;
-        font-family: 'Oswald-ExtraLight';
+        font-family: local(${oswaldExtraLight});
         color: white;
         width: 75%;
         text-align: center;

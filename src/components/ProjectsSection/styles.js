@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 import projectsBG from '/img/bg-projects.webp';
 
+import nasalization from '/global/fonts/nasalization.otf';
+import oswaldLight from '/global/fonts/Oswald-Light.ttf';
+import oswald from '/global/fonts/Oswald.ttf';
+
 const media = {
-    lgBreakpoint: `@media only screen and (max-width: 1024px)`,
+    desktop: `@media only screen and (max-width: 1024px)`,
 }
 
 export const ProjectsWrapper = styled.section`
@@ -34,7 +38,7 @@ export const CardProjects = styled.div`
         font-size: 7rem;
         text-transform: uppercase;
         color: #fff; 
-        font-family: 'Nasalization';
+        font-family: local(${nasalization});
         font-weight: 400;
         letter-spacing: 1px;
     }
@@ -69,7 +73,7 @@ export const CarouselWrapper = styled.div`
     align-items: center;
     & .btn-primary {
         background: #407A26;
-        font-family: 'Oswald';
+        font-family: local(${oswald});
         letter-spacing: 1px;
         font-size: 2.2rem;
         text-align: center;
@@ -167,21 +171,21 @@ export const CardBody = styled.div`
         text-align: center;
         font-size: 2.6rem;
         width: 100%;
-        font-family: Nasalization;
+        font-family: local(${nasalization});
         font-weight: 400;
         color: #4B902D;
     }
     & p {
         padding-left: 10px;
         padding-right: 10px;
-        font-family: Oswald-Light;
+        font-family: local(${oswaldLight});
         font-size: 1.7rem;
     }
     & .btn-card {
         width: 90%;
         height: 35px;
         text-transform: uppercase;
-        font-family: Oswald;
+        font-family: local(${oswald});
         letter-spacing: 1px;
         font-size: 1.7rem;
         margin-top: .5rem;

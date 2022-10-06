@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
+import nasalization from '/global/fonts/nasalization.otf';
+import oswaldExtraLight from '/global/fonts/Oswald-ExtraLight.ttf';
+import oswald from '/global/fonts/Oswald.ttf';
+
 export const Container = styled.section`
     width: 100%;
     min-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Oswald';
+    font-family: local(${oswald});
     margin: 100px 0;
 `;
 
@@ -18,14 +22,14 @@ export const Texts = styled.div`
 export const Title = styled.h1`
     text-align: center;
     width: 100%;
-    font-family: 'Nasalization';
+    font-family: local(${nasalization});
 `;
 
 export const SubTitle = styled.h1`
     text-align: center;
     width: 100%;
     transition: .8s;
-    font-family: 'Oswald-ExtraLight';
+    font-family: local(${oswaldExtraLight});
     opacity: 0.7;
 `;
 
@@ -36,7 +40,7 @@ export const Description = styled.p`
     text-align: center;
     width: 100%;
     color: white;
-    font-family: 'Oswald-ExtraLight';
+    font-family: local(${oswaldExtraLight});
     opacity: 0.7;
     font-size: 25px;
 `;

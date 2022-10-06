@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+import nasalization from '/global/fonts/nasalization.otf';
+import oswaldLight from '/global/fonts/Oswald-Light.ttf';
+
 const media = {
     tablet: `@media(max-width: 768px)`,
     cell: `@media(max-width: 375px)`
@@ -14,7 +17,7 @@ export const FooterWrapper = styled.footer`
     background-color: #242434;
     position: relative;
     & h2 {
-        font-family: Nasalization;
+        font-family: local(${nasalization});
         font-weight: 400;
         font-size: 3rem;
     }
@@ -113,7 +116,7 @@ export const Project = styled.a`
         margin-top: 1rem;
     }
     & h3 {
-        font-family: 'Oswald-Light';
+        font-family: local(${oswaldLight});
         font-weight: 400;
         color: #cacaca;
     }
@@ -135,7 +138,7 @@ export const FastLinks = styled.div`
         margin-bottom: 0;
     }
     & ul li {
-        font-family: Oswald-Light;
+        font-family: local(${oswaldLight});
         list-style-type: square;
         list-style-position: inside;
         text-transform: uppercase;
