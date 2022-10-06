@@ -14,7 +14,7 @@ export const FooterWrapper = styled.footer`
     background-color: #242434;
     position: relative;
     & h2 {
-        font-family: Nasalization;
+        font-family: 'nasalization';
         font-weight: 400;
         font-size: 3rem;
     }
@@ -113,7 +113,7 @@ export const Project = styled.a`
         margin-top: 1rem;
     }
     & h3 {
-        font-family: 'Oswald-Light';
+        font-family: 'oswald-Light';
         font-weight: 400;
         color: #cacaca;
     }
@@ -135,7 +135,7 @@ export const FastLinks = styled.div`
         margin-bottom: 0;
     }
     & ul li {
-        font-family: Oswald-Light;
+        font-family: 'oswald-Light';
         list-style-type: square;
         list-style-position: inside;
         text-transform: uppercase;

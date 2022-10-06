@@ -20,7 +20,7 @@ export function Home() {
                     <div className='letter m'>M</div>
                     <div className='letter a'>A</div>
                     <div className='letter s'>S</div>
-                    <img src='/img/tree.png' alt='Árvore similar a aroeira' />
+                    <img src='/img/tree.webp' alt='Árvore similar a aroeira' />
                     <div className='letter t'>T</div>
                     <div className='letter i'>I</div>
                     <div className='letter c'>C</div>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import meioAmbiente from '../../assets/img/meio-ambiente.png';
-import periferia from '../../assets/img/periferias.png';
+import meioAmbiente from '/img/meio-ambiente.webp';
+import periferia from '/img/periferias.webp';
 
 const media = {
     tablet: `@media only screen and (max-width: 768px)`,
@@ -19,8 +19,7 @@ export const ProblematicWrapper = styled.section`
     background-color: #407A26;
     ${media.tablet} {
         flex-direction: column;
-        width: 44
-        0px;
+        width: 450px;
         height: calc(350px * 3);
     }
 `;
@@ -61,7 +60,7 @@ export const Card = styled.div`
             border-radius: 10px;
             transition: 0.5s;
             font-size: 1.5rem;
-            font-family: 'Oswald';
+            font-family: 'oswald';
             display:flex;
             align-items: center;
             justify-content: center;
@@ -75,7 +74,7 @@ export const Card = styled.div`
             color: #fff;
             opacity: 80%;
             font-size: 2rem;
-            font-family: 'Oswald';
+            font-family: 'oswald';
             font-weight: lighter;
         }
     `;
@@ -89,7 +88,7 @@ export const Card = styled.div`
             font-size: 3.7rem;
             color: #fff;
             margin-left: 10px;
-            font-family: 'Nasalization';
+            font-family: 'nasalization';
         }
     `;
 
@@ -131,7 +130,7 @@ export const TitleWrapper = styled.div`
             align-items: center;
             margin: 0 10px;
             font-size: 2.5rem;
-            font-family: 'Nasalization';
+            font-family: 'nasalization';
             text-transform: uppercase;
         }
         & .card-data {
@@ -143,6 +142,6 @@ export const TitleWrapper = styled.div`
             bottom: -50px;
             padding: 10px 15px;
             text-align: justify;
-            font-family: 'Oswald';
+            font-family: 'oswald';
         }
     `;
