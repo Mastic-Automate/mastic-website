@@ -31,7 +31,7 @@ export const AboutUsHeader = styled.div`
         font-size: 6rem;
         font-weight: 300;
         letter-spacing: 2px;
-        font-family: 'oswald-ExtraLight';
+        font-family: 'Oswald-ExtraLight';
     }
     ${media.tablet} {
         
@@ -93,13 +93,13 @@ export const Detail = styled.div`
         font-size: 3rem;
         margin: 0 auto;
         text-align: center;
-        font-family: 'nasalization';
+        font-family: 'Nasalization';
         font-weight: 400;
     }
     & p {
         font-size: 2.1rem;
         letter-spacing: 1px;
-        font-family: 'oswald-ExtraLight';
+        font-family: 'Oswald-ExtraLight';
         color: white;
         width: 75%;
         text-align: center;

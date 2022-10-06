@@ -7,7 +7,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'oswald';
+    font-family: 'Oswald';
     margin: 100px 0;
 `;
 
@@ -19,14 +19,14 @@ export const Texts = styled.div`
 export const Title = styled.h1`
     text-align: center;
     width: 100%;
-    font-family: 'nasalization';
+    font-family: 'Nasalization';
 `;
 
 export const SubTitle = styled.h1`
     text-align: center;
     width: 100%;
     transition: .8s;
-    font-family: 'oswald-ExtraLight';
+    font-family: 'Oswald-ExtraLight';
     opacity: 0.7;
 `;
 
@@ -37,7 +37,7 @@ export const Description = styled.p`
     text-align: center;
     width: 100%;
     color: white;
-    font-family: 'oswald-ExtraLight';
+    font-family: 'Oswald-ExtraLight';
     opacity: 0.7;
     font-size: 25px;
 `;
