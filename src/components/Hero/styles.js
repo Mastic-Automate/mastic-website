@@ -3,7 +3,7 @@ import {RegularSectionWrapper} from "../RegularSection/styles.js";
 import bgHero from '/img/mastic-background.webp';
 
 const media = {
-    tablet: '@media(max-width: 700px)',
+    tablet: '@media(max-width: 768px)',
 };
 
 export const HeroWrapper = styled(RegularSectionWrapper)`
