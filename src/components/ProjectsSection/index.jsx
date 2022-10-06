@@ -11,7 +11,9 @@ import {
     CardBody
 } from './styles';
 
-import enterpriseLogo from '../../assets/img/logo-mastic-removedBG.png';
+import enterpriseLogo from '/img/logo-mastic-removedBG.webp';
+
+import projectsBG from '/img/automate-logo-cutted.webp';
 
 export function ProjectsSection() {
     return (
@@ -28,7 +30,7 @@ export function ProjectsSection() {
         <Carousel className='carousel'>
             <Card className='card'>
                 <CardHeader className='card-header'>
-                    <img src='./img/automate-logo-cutted.png' alt='logo do automate' />
+                    <img src={ projectsBG } alt='logo do automate' />
                 </CardHeader>
                 <CardBody className='card-body'>
                     <h1>Automate</h1>

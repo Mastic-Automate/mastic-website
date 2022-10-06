@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import projectsBG from '../../assets/img/bg-projects.png';
+import projectsBG from '/img/bg-projects.webp';
 
 const media = {
     lgBreakpoint: `@media only screen and (max-width: 1024px)`,

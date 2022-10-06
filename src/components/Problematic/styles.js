@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import meioAmbiente from '../../assets/img/meio-ambiente.png';
-import periferia from '../../assets/img/periferias.png';
+import meioAmbiente from '/img/meio-ambiente.webp';
+import periferia from '/img/periferias.webp';
 
 const media = {
     tablet: `@media only screen and (max-width: 768px)`,
@@ -19,8 +19,7 @@ export const ProblematicWrapper = styled.section`
     background-color: #407A26;
     ${media.tablet} {
         flex-direction: column;
-        width: 44
-        0px;
+        width: 450px;
         height: calc(350px * 3);
     }
 `;

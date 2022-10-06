@@ -1,6 +1,6 @@
 import React from 'react';
 
-import enterpriseLogo from '../../assets/img/logo-mastic-removedBG.png';
+import enterpriseLogo from '/img/logo-mastic-removedBG.webp';
 import { 
     ProblematicWrapper,
     Card,
